@@ -89,5 +89,7 @@ public class App {
         System.out.println("Your password is: " + userPassword2);
         System.out.println("Your encrypted password is: " + user2.getEncryptedPassword() + " and your key is: "+ user2.getKey());
         System.out.println("Your decrypted password is: " + AES.decrypt(user2.getEncryptedPassword(), user2.getKey()));
+
+           
     }
 }
