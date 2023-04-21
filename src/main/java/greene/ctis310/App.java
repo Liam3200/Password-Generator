@@ -1,6 +1,8 @@
 package greene.ctis310;
 
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.net.URISyntaxException;
 import java.util.Scanner;
 
@@ -74,6 +76,23 @@ public class App {
         
         User user = new User(firstName, lastName, email, username, wordCount, numberCount);
         String userPassword = user.generatePassword();
+
+        // create a new user object
+        User user2 = new User(firstName2, lastName2, email2, username2, wordCount2, numberCount2);
+        String userPassword2 = user2.generatePassword();
+        
+        //create a new file object with output.txt
+        File file = new File(App.class.getResource("/output.txt").toURI());
+        //create a new print stream object with file
+        PrintStream printStream = new PrintStream(file);
+        //set the output to the print stream
+        System.setOut(printStream);
+
+        //print out both users
+        System.out.println("User 1"+user);
+        System.out.println("User 2 "+user2);
+        System.out.println("==================================");
+
         // print the user's password
         System.out.println("For user: " + user.getUsername());
         System.out.println("Your password is: " + userPassword);
@@ -81,9 +100,7 @@ public class App {
         System.out.println("Your decrypted password is: " + AES.decrypt(user.getEncryptedPassword(), user.getKey()));
         System.out.println("==================================");
 
-        // create a new user object
-        User user2 = new User(firstName2, lastName2, email2, username2, wordCount2, numberCount2);
-        String userPassword2 = user2.generatePassword();
+        
         // print the user's password
         System.out.println("For user: " + user2.getUsername());
         System.out.println("Your password is: " + userPassword2);

@@ -46,6 +46,7 @@ public class User {
         //encrypt the password
         key = getRandomWord();
         encryptedPassword = AES.encrypt(password.toString(), key);
+        this.password = password.toString();
         //return the password
         return password.toString();
     }
@@ -153,4 +154,13 @@ public class User {
     public String getKey() {
         return key;
     }
+
+    @Override
+    public String toString() {
+        return "User [firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + ", username=" + username
+                + ", password=" + password + ", wordCount=" + wordCount + ", numberCount=" + numberCount
+                + ", encryptedPassword=" + encryptedPassword + ", key=" + key + "]";
+    }
+
+    
 }
