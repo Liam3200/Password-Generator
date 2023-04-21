@@ -1,0 +1,12 @@
+User 1 User [firstName=Liam, lastName=Greene, email=lg@guilford.edu, username=wgreene, password=closekarmaalientaste63694^, wordCount=4, numberCount=5, encryptedPassword=gdwcDRNgEVYn48/CMswji32+Z/Ubi1zhnwivcYdPtWA=, key=globe]
+User 2 User [firstName=John, lastName=Doe, email=jd@gmail.com, username=jdoe45, password=closeyachtaliencrossknifegenre84$, wordCount=6, numberCount=2, encryptedPassword=ClFPoL1gsjeX61j6rdRDxgGVMPUISLN3BKi21ABCO3lizOoUfwWo6ET9yj0MArqJ, key=relax]
+==================================
+For user: wgreene
+Your password is: closekarmaalientaste63694^
+Your encrypted password is: gdwcDRNgEVYn48/CMswji32+Z/Ubi1zhnwivcYdPtWA= and your key is: globe
+Your decrypted password is: closekarmaalientaste63694^
+==================================
+For user: jdoe45
+Your password is: closeyachtaliencrossknifegenre84$
+Your encrypted password is: ClFPoL1gsjeX61j6rdRDxgGVMPUISLN3BKi21ABCO3lizOoUfwWo6ET9yj0MArqJ and your key is: relax
+Your decrypted password is: closeyachtaliencrossknifegenre84$
