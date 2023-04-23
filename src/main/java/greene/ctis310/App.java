@@ -81,13 +81,6 @@ public class App {
         User user2 = new User(firstName2, lastName2, email2, username2, wordCount2, numberCount2);
         String userPassword2 = user2.generatePassword();
         
-        //create a new file object with output.txt
-        File file = new File(App.class.getResource("/output.txt").toURI());
-        //create a new print stream object with file
-        PrintStream printStream = new PrintStream(file);
-        //set the output to the print stream
-        System.setOut(printStream);
-
         //print out both users
         System.out.println("User 1"+user);
         System.out.println("User 2 "+user2);
