@@ -1,0 +1,40 @@
+Welcome to the Password Generator!
+User 1 enter your information:
+Enter your first name: 
+Liam
+Enter your last name: 
+Greene
+Enter your email: 
+lg@guilford.edu
+Enter your username: 
+wgreene
+How many words in your password?: 
+4
+How many numbers in your password?: 
+5
+==================================
+User 2 enter your information:
+Enter your first name: 
+John
+Enter your last name: 
+Doe
+Enter your email: 
+jd@gmail.com
+Enter your username: 
+jd45
+How many words in your password?: 
+3
+How many numbers in your password?: 
+8
+User 1User [firstName=Liam, lastName=Greene, email=lg@guilford.edu, username=wgreene, password=roachmelonmayormayor11878*, wordCount=4, numberCount=5, encryptedPassword=5m5Pp1I3TjM32RMkY8bBhWxPpGpboTXgQCMl/r55WR0=, key=glass]
+User 2 User [firstName=John, lastName=Doe, email=jd@gmail.com, username=jd45, password=mayoroliveuncle75897993$, wordCount=3, numberCount=8, encryptedPassword=OGSToODLjamQRg4cXRZ2YiRWhrwLdKN7/4o/vF3Bnrg=, key=armor]
+==================================
+For user: wgreene
+Your password is: roachmelonmayormayor11878*
+Your encrypted password is: 5m5Pp1I3TjM32RMkY8bBhWxPpGpboTXgQCMl/r55WR0= and your key is: glass
+Your decrypted password is: roachmelonmayormayor11878*
+==================================
+For user: jd45
+Your password is: mayoroliveuncle75897993$
+Your encrypted password is: OGSToODLjamQRg4cXRZ2YiRWhrwLdKN7/4o/vF3Bnrg= and your key is: armor
+Your decrypted password is: mayoroliveuncle75897993$
